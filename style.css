@@ -1,0 +1,174 @@
+body {
+    font-family: sans-serif;
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+   
+}
+main,header,footer{
+     padding: 0px 20px;
+}
+nav div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+margin-top: 40px;
+    padding: 20px 0;
+}
+
+nav a{
+text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #F7FB56;
+
+}
+
+nav a:hover{
+    color: #bc4a11;
+    transition: 0.3s;
+}
+
+.pon p{
+    width: 60%;
+    float: left;
+     background: linear-gradient(35deg, #000000 20%, green 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.pon img {
+  
+    float: right;
+    width: 40%;
+}
+.pon div{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.prod p{ 
+    color: #000000;
+}
+.prod a{
+    text-decoration: none;
+}
+
+.rev span{
+    position: relative;
+    left:10px;
+    bottom: 50px;
+}
+.rotation{
+  transform: rotate(10deg);
+  position: absolute;
+  right: 100px;
+
+}
+.prod p{
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+
+}
+.pon img {
+background: url(Без_названия__1_-removebg-preview.png);
+transform: rotate(-1.03deg);
+
+}
+
+header p {
+    background-color: #000000;
+    font-size: 2px;
+    transform: rotate(-1deg);
+}
+
+.cat article{
+
+background: linear-gradient(180deg, #75E84C 5.21%, #DEFB30 99.99%, rgba(222, 251, 48, 0) 100%);
+border: 1px solid #000000;
+width: 300px;
+}
+footer{
+    padding: 20px;
+}
+
+.cat div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.prod {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.prod {
+ 
+
+background: linear-gradient(180deg, #75E84C 5.21%, #DEFB30 99.99%, rgba(222, 251, 48, 0) 100%);
+border: 1px solid #000000;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+padding: 10px;
+
+
+color: #FFFFFF;
+margin: 15px;
+
+}
+.prod a{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+/* Ellipse 1 */
+
+
+background: #23DE05;
+padding: 10px;
+border-radius: 20px;
+/* margin: 10px; */
+
+}
+.review p{
+background-color: white;
+padding: 10px;
+border-radius:10px ;
+border: 2px solid #000000;
+}
+
+.review span{
+    font-size: 20px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    margin: 0px auto;
+    color: white;
+}
